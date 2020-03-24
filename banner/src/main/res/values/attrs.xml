@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="BannerView">
+        <attr name="type">
+            <enum name="none" value="0"/>
+            <enum name="dot" value="1"/>
+            <enum name="page" value="2"/>
+        </attr>
+
+        <attr name="selectColor" format="color"/>
+        <attr name="noneColor" format="color"/>
+        <attr name="navigationWidth" format="dimension"/>
+        <attr name="navigationHeight" format="dimension"/>
+
+        <attr name="textColor" format="color"/>
+        <attr name="textBackground" format="color"/>
+        <attr name="textSize" format="dimension"/>
+
+        <attr name="navigationAlignParentLeft" format="boolean"/>
+        <attr name="navigationAlignParentTop" format="boolean"/>
+        <attr name="navigationAlignParentRight" format="boolean"/>
+        <attr name="navigationAlignParentBottom" format="boolean"/>
+        <attr name="navigationCenterHorizontal" format="boolean"/>
+        <attr name="navigationCenterInParent" format="boolean"/>
+        <attr name="navigationCenterVertical" format="boolean"/>
+
+        <attr name="navigationMarginLeft" format="dimension" />
+        <attr name="navigationMarginTop" format="dimension" />
+        <attr name="navigationMarginRight" format="dimension" />
+        <attr name="navigationMarginBottom" format="dimension" />
+
+        <attr name="currentItem" format="integer"/>
+
+        <attr name="time" format="integer"/>
+    </declare-styleable>
+</resources>
